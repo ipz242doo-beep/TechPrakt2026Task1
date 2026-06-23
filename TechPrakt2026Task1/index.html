@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Трекер завдань</title>
+  <style>
+    .completed { text-decoration: line-through; color: gray; cursor: pointer; }
+    li { cursor: pointer; margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+<div id="app">
+  <h1>Мій трекер завдань</h1>
+  <input type="text" id="taskInput" placeholder="Введіть завдання..." />
+  <button id="addBtn">Додати</button>
+  <ul id="taskList"></ul>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
